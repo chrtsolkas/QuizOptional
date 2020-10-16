@@ -7,8 +7,11 @@ Specifically answer: “Is there an association between college major category a
 
 ## Answer
 We first conduct an exploratory analysis of the dataset.
+
 Dims: 173 observations of 19 variables
+
 Unique major categories: 16
+
 There are some NAs (NaNs) present in columns perc_employed_parttime, perc_college_jobs, perc_non_college_jobs and perc_low_wage_jobs (1 NA per column, 2 cases).
 
 Then we make box plots for the median income per major category. We observe that the median income per category lays between 33500 and 40000. The exceptions are Communications & Journalism and Physical Sciences with higher values and Interdisciplinary with the lower value of 27500. So the medians are relatively close to each other.
